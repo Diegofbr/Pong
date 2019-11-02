@@ -1,0 +1,57 @@
+@font-face {
+    font-family: Ayuthaya;
+    src: url(Ayuthaya.ttf);
+}
+body {
+    margin : 0px;
+    
+}
+#game{
+    background-color: lightsteelblue;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+}
+#playArea{
+    background-color: floralwhite;
+    position: absolute;
+    width: 90vw;
+    height: 92vh;
+}
+#ball{
+    background-color: rgb(56, 125, 185);
+    position: absolute;
+    width: 30px;
+    height: 30px;
+    top: 0px;
+    left: 0px;
+    transform: rotate(360deg);
+}
+#rightPaddle{
+    background-color: lightsteelblue;
+    position: absolute;
+    width: 60px;
+    height: 280px;
+    top: 0px;
+    
+}
+#leftPaddle{
+    background-color: lightsteelblue;
+    position: absolute;
+    width: 60px;
+    height: 280px;
+    top: 0px;
+    left: 0px;
+}
+p{
+    position: absolute;
+    font-family: Ayuthaya;
+    font-size: 90px;
+    text-shadow: 0 0 120px rgb(83, 112, 151);
+}
+.almostGone{
+    background-color: aquamarine;
+}
+.gone{
+    position: none;
+}
